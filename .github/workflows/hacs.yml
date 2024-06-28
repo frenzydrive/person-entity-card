@@ -25,3 +25,4 @@ jobs:
           python -m pip list
       - name: Run HACS action
         run: hacs action
+
