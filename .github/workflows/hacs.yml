@@ -19,7 +19,7 @@ jobs:
       - name: Install requirements
         run: |
           python -m pip install --upgrade pip
-          pip install git+https://github.com/hacs/integration
+          pip install -e git+https://github.com/hacs/integration#egg=hacs
       - name: Verify installation
         run: |
           python -m pip list
